@@ -1,2 +1,2 @@
 # Flight-log
-Selected flight data for Kitemil AWE plant
+Selected flight data for Kitemill AWE plant.
