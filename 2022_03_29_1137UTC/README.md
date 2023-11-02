@@ -1,25 +1,31 @@
 # Flight-log
-KM1 model Definiations:
-X-axis : Pointing from kite center of gravity toward the kite nose.
-Y-axis : Pointing from kite center of gravity toward the kite right side (starboard).
-Z-axis : Form right hand coordinate frame with X-Y-axis.
+- KM1 model Definitions:
+  + XYZ kite body coordinate system (origin at kite center of gravity):
+    X-axis: Pointing from the kite's center of gravity toward the kite's nose.
+    Y-axis: Pointing from the kite's center of gravity toward the kite's right side (starboard).
+    Z-axis: Form a right-hand coordinate frame with an XY-axis (pointing down from the kite body).
+    
+  + NED North, East, Down local navigation coordinate system (origin at winch drum):
+    N-axis: Pointing from the winch drum toward the north.
+    E-axis: Pointing from the winch drum toward the East.
+    D-axis: Form a right-hand coordinate frame with a NE-axis (pointing down toward the earth).
 
-acronym:
-a_eb_bX : Kite body accelaration
-a_eb_bY = SD1_LOG00084_a_eb_bY';
-a_eb_bZ = SD1_LOG00084_a_eb_bZ';
+- Acronym:
+  a_eb_bX: Kite body acceleration along the kite X-axis [meter per second square].
+  a_eb_bY: Kite body acceleration along the kite X-axis [meter per second square].
+  a_eb_bZ: Kite body acceleration along the kite X-axis [meter per second square].
 
-v_eb_eD = SD1_LOG00084_v_eb_eD';
-v_eb_eE = SD1_LOG00084_v_eb_eE';
-v_eb_eN = SD1_LOG00084_v_eb_eN';
+  v_eb_eN: Kite body velocity in navigation frame the N-axis [meter per second].
+  v_eb_eE: Kite body velocity in navigation frame the E-axis [meter per second].
+  v_eb_eD: Kite body velocity in navigation frame the D-axis [meter per second].
 
-r_eb_eD = SD1_LOG00084_r_eb_eD';
-r_eb_eE = SD1_LOG00084_r_eb_eE';
-r_eb_eN = SD1_LOG00084_r_eb_eN';
+  r_eb_eN: Kite position in navigation frame the N-axis [meters].
+  r_eb_eE: Kite position in navigation frame the E-axis [meters].
+  r_eb_eD: Kite position in navigation frame the D-axis [meters].
 
-phi = SD1_LOG00084_phi';
-theta = SD1_LOG00084_theta';
-psi = SD1_LOG00084_psi';
+phi: Kite roll angle [degree].
+theta: Kite pitch angle [degree].
+psi: Kite yaw angle [degree].
 
 p = SD1_LOG00084_p';
 q = SD1_LOG00084_q';
