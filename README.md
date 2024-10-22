@@ -45,6 +45,6 @@ The CSV files for the kite contains the following columns
 
 
 The body coordinate system of the kite is forward X-Axis, right wing direction
-Y-Axis, down Z-Axis. Rotation is positive according to the right hand side
+Y-Axis, down Z-Axis. Rotation is positive according to the right hand 
 rule.
 
