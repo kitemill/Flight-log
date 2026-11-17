@@ -2,8 +2,8 @@
 
 This repository contains data logged onboard Kitemill's Prototype KM1 kite on two occasions.
 
-- 2022 week 17, flight 03 on thursday, 460 production loops in high winds
-- 2022 week 19, flight 02 on wednesday, 480 production loops in low winds
+- 2024 week 17, flight 03 on thursday, 460 production loops in high winds
+- 2024 week 19, flight 02 on wednesday, 480 production loops in low winds
 
 The data is given as CSV files for the kite and the nearby Lista Fyr Lighthouse
 public weather station. Note the distance to Lista Fyr to the Kitemill site is
